@@ -1,3 +1,23 @@
+header {
+  background:lightpink;
+  color:darkgreen;
+  text-align:center;
+}
+
 body {
-  background: darkgray;
+  background:tan;
+}
+
+p {
+  text-align:center;
+  color:darkslategray;
+}
+
+/* Researched and pulled from https://w3schools.com/css/css3_images.asp */
+img {
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
 }
