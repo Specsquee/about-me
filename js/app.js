@@ -5,6 +5,7 @@ let combinedAnswer = 0;
 let userName = prompt('Hello! Welcome to this biography into my as of now short life! What is your name if you do not mind me asking?');
 alert(`Welcome to my site ${userName}! Now that you are here I wanted to ask you a few yes or no questions to quiz you about your knowledge of me. Please only answer the questions with either Yes / Y or No / N. Thank you for your cooperation!`);
 
+function Test(){
 let firstQuestion = prompt('Yes or no! Is this my first attempt at breaking into tech?').toLowerCase();
 if(firstQuestion === 'yes' || firstQuestion === 'y'){
   alert('Nope. Years ago I attempted a bachelors degree in Game Design, but after passing for two years life got in the way and I had to pull out.');
@@ -14,8 +15,9 @@ if(firstQuestion === 'yes' || firstQuestion === 'y'){
   alert('Correct. I attempted a bachelors degree in Game Design many years ago, but life got in the way after two years of work!');
 } else if(firstQuestion === ''){
   alert('Next time please answer the question properly');
-}
+}}
 
+function Test(){
 let secondQuestion = prompt('Yes or No! Am I currently homeless?').toLowerCase();
 if (secondQuestion === 'yes' || secondQuestion === 'y'){
   combinedAnswer++;
@@ -27,6 +29,7 @@ if (secondQuestion === 'yes' || secondQuestion === 'y'){
   alert('Next time please answer the question properly');
 }
 
+function Test(){
 let thirdQuestion = prompt('Yes or No! Do I have a chronic illness?').toLowerCase();
 if (thirdQuestion === 'yes' || thirdQuestion === 'y'){
   combinedAnswer++;
@@ -38,6 +41,7 @@ if (thirdQuestion === 'yes' || thirdQuestion === 'y'){
   alert('Next time please answer the question properly');
 }
 
+function Test(){
 let forthQuestion = prompt('Yes or No! Do I currently possess a single chicken?').toLowerCase();
 if (forthQuestion === 'yes' || forthQuestion === 'y'){
   combinedAnswer++;
@@ -49,6 +53,7 @@ if (forthQuestion === 'yes' || forthQuestion === 'y'){
   alert('Next time please answer the question properly');
 }
 
+functioin Test(){
 let fifthQuestion = prompt('Yes or No! Have I played Magic the Gathering since I was around 10 years old').toLowerCase();
 if (fifthQuestion === 'yes' || fifthQuestion === 'y'){
   combinedAnswer++;
@@ -60,6 +65,7 @@ if (fifthQuestion === 'yes' || fifthQuestion === 'y'){
   alert('Next time please answer the question properly');
 }
 
+function Test(){
 let guessNum = [5, 10, 15, 20, 25];
 let friedMind = prompt("Can you guess a correct number between 1 and 25? You have 6 chances");
 let correctAnswer = false;
