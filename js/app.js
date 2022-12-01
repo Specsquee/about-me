@@ -55,4 +55,30 @@ if (fifthQuestion === 'yes' || fifthQuestion === 'y'){
   alert('Next time please answer the question properly');
 }
 
-alert(`Thank you ${userName} for taking the time to answer my question. Please feel free to check out the rest of this website for more information on me!`);
+let guessNum = [5, 10, 15, 20, 25];
+let friedMind = prompt("Can you guess a correct number between 1 and 25? You have 6 chances");
+let correctAnswer = false;
+for (let i = 0; i < 6; i++){
+  if(i === 5){
+    alert("Sorry you have guessed to many times. Game over");
+    break;
+  }
+  console.log(i);
+  for(let j = 0; j < 5; j++){
+    // console.log('array =' + j);
+    // console.log('friedMind =' + friedMind);
+    // console.log('guessNum =' + guessNum[j]);
+    if(friedMind == guessNum[j]){
+      alert("You are correct! The answers were 5, 10, 15, 20, 25");
+      correctAnswer = true;
+      break;
+    }
+  }
+  if(correctAnswer){
+    break;
+  }
+  friedMind = prompt("That was a wrong guess. Please try again to guess a number between 1 and 25");
+}
+// console.log('I am out of the loop');
+
+alert(`Thank you ${userName} for taking the time to answer my questions. Please feel free to check out the rest of this website for more information on me!`);
