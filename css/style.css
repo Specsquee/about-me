@@ -13,7 +13,44 @@ p {
   color:darkslategray;
 }
 
+p1 {
+  background-color: honeydew;
+  color: blue;
+  margin-left: 40%;
+}
+
+ol {
+  background-color: darkorange;
+  border-radius: 5px;
+  width: 10%;
+  color: cornsilk;
+  margin-left: 40%;
+}
+
+p2 {
+  background-color: indianred; 
+  color: lawngreen;
+  margin-left: 40%;
+  border-radius: 2px;
+}
+
+p3 {
+  background-color: indianred;
+  color: lawngreen;
+  margin-left: 40%;
+  border-radius: 2px;
+}
+
+ul {
+  background-color:darkslategrey;
+  color: deepskyblue;
+  margin-left: 40%;
+  border-radius: 5px;
+  width: 20%;
+}
+
 /* Researched and pulled from https://w3schools.com/css/css3_images.asp */
+
 img {
   border-radius: 10px;
   display: block;
