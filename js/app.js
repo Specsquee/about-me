@@ -1,7 +1,5 @@
 'use strict';
 
-// Prompts and alerts
-
 let combinedAnswer = 0;
 
 function whatsName(){
@@ -85,9 +83,6 @@ function questSix(){
     }
     console.log(i);
     for(let j = 0; j < 5; j++){
-    // console.log('array =' + j);
-    // console.log('friedMind =' + friedMind);
-    // console.log('guessNum =' + guessNum[j]);
       if(friedMind == guessNum[j]){
         combinedAnswer++;
         alert("You are correct! The answers were 5, 10, 15, 20, 25");
@@ -101,7 +96,5 @@ function questSix(){
     }
     friedMind = prompt("That was a wrong guess. Please try again to guess a number between 1 and 25");
   }
-
-  // console.log('I am out of the loop');
 
   alert(`Thank you ${userName} for taking the time to answer my questions. Please feel free to check out the rest of this website for more information on me!`); }
